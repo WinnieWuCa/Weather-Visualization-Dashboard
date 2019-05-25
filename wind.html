@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Climate Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+     <div class="row">
+         <nav class="navbar navbar-inverse" style="background-color:black;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="cloudy.html">Cloudiness</a></li>
+                          <li><a href="humidity.html">Humidity</a></li>
+                          <li><a href="temperature.html">Temperature</a></li>
+                          <li><a href="wind.html">Wind</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html">Comparison</a></li> 
+                    <li><a href="data.html">Data </a></li> 
+                </ul>
+            </div>
+        </nav>     
+    </div>      
+    <div class="row">
+        <div class="col-sm-8" style="background-color:white;">
+            <box>
+                <article style="background-color:white;">
+                    <h4 class="card-header">Wind</h4>
+                        <div>
+                            <img class="img-thumbnail img-responsive" src="images/wind.png" alt="Cloudiness" style="width:100%"> 
+                            <p> Cloudiness refers to the 
+                                fraction of the sky obscured by clouds when observed from a particular location. 
+                                This graph shows that there is a higher amount of cloudiness around the equator.
+                            </p>            
+                        </div>
+                </article>
+            </box>
+        </div>
+        <div class="col-sm-4" style="background-color:white;">
+                <div class="col-6">
+                    <div class="col-sm-6 card">
+                        <box>
+                            <button class="btn active">
+                            <h5 class="card-header">Cloudiness</h5>
+                            <a href="cloudy.html"><img class="img-thumbnail" src="images/cloudiness.png" alt="Card image cap"> </a>    
+                            </button>
+                        </box>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-sm-6 card">
+                        <box>
+                            <button class="btn">
+                            <h5 class="card-header">Humidity</h5>
+                            <a href="humidity.html"><img class="img-thumbnail" src="images/humidity.png" alt="Card image cap"> </a> 
+                            </button>
+                        </box>
+                    </div>
+                </div> 
+                <div class="col-6">
+                        <div class="col-sm-6 card">
+                            <box>
+                                <button class="btn">
+                                <h5 class="card-header">Temperature</h5>
+                                <a href="temperature.html"><img class="img-thumbnail" src="images/temperature.png" alt="Card image cap"> </a> 
+                                </button>
+                            </box>
+                        </div>
+                </div> 
+                <div class="col-6">
+                    <div class="col-sm-6 card">
+                        <box>
+                            <button class="btn">
+                            <h5 class="card-header">Wind</h5>
+                            <a href="wind.html"><img class="img-thumbnail" src="images/wind.png" alt="Card image cap"> </a> 
+                            </button>
+                        </box>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>    
+    <div class="row">
+            <!-- Footer -->
+            <footer class="page-footer font-small blue" style="background-color:lightcyan;">
+    
+            <!-- Copyright -->
+                 <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                    <a> Winnie Wu</a>
+                </div>
+            <!-- Copyright -->
+            </footer>
+       
+    </div>
+</div>
+
+</body>
+</html>
